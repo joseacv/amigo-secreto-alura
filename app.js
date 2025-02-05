@@ -23,7 +23,7 @@ function agregarAmigo(){
     amigos.push(nombreAmigo);
     
 
-    ingresoAmigo.ariaValue = "";
+    ingresoAmigo.value = "";
 
     //Actualizar la lista de amigos en la interfaz
     actualizarLista();
@@ -62,11 +62,5 @@ function sortearAmigo(){
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = `Tu amigo secreto es: <b> ${amigoSorteado}</b>`;
 
-    /*Ocultar el botón de sorteo
-    let botonSortear = document.getElementById("botonSortear");
-    botonSortear.style.display = "none";
-    }
-    */
+ 
 }
-
-//Funcion que reinicia el sorteo
